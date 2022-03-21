@@ -17,5 +17,8 @@ void loop()
    if(var == HIGH)
    {
      digitalWrite(led, HIGH);
+     
+   if(!var == LOW)
+     digitalWrite(led, LOW);
    }
 }
